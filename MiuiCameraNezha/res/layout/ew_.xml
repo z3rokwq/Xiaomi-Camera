@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/live_preview_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no">
+        <ImageView android:id="@id/live_preview_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/exit_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/live_review_exit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_new_config_mode_close" android:contentDescription="@string/gmd" android:layout_marginStart="@dimen/e9q" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/live_preview_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="center" android:id="@id/live_preview_recording_time_view" android:background="@drawable/glf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/cf8" android:paddingStart="@dimen/cfo" android:paddingEnd="@dimen/cfo" app:z7="@null" style="@style/i6f" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/live_master_music_hint" android:background="@drawable/glf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/cf8">
+        <ImageView android:id="@id/live_music_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/live_music_icon" android:contentDescription="@string/gl3" />
+        <com.android.camera.ui.ScrollTextview android:textSize="@dimen/ddh" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/live_music_title_hint" android:layout_width="wrap_content" android:layout_height="@dimen/dde" android:maxWidth="@dimen/ddi" android:text="@string/glf" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="@style/ia_" />
+        <ImageView android:layout_gravity="end" android:id="@id/live_music_close" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_vector_close_thin" android:scaleType="centerInside" android:contentDescription="@string/gkb" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/live_preview_recording_center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/egg" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/live_preview_newTip_text" android:background="@drawable/toast_top_recommend_tip_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/egd" android:paddingStart="@dimen/egd" android:paddingEnd="@dimen/egd" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/vv_process_video_cover" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/live_preview_play" android:background="@drawable/bg_thumbnail_background_full" android:focusable="false" android:clickable="true" android:layout_width="@dimen/bny" android:layout_height="@dimen/bny" android:src="@drawable/ic_vector_play" android:scaleType="centerInside" android:contentDescription="@string/ffd" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/live_concat_progress" android:background="@drawable/bg_thumbnail_background_full" android:padding="15.0dip" android:layout_width="@dimen/boj" android:layout_height="@dimen/boj" android:indeterminateDrawable="@drawable/live_share_progress" android:indeterminateDuration="700" style="?android:progressBarStyleLarge" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom|center" android:id="@id/vv_preview_bottom_action" android:clipChildren="false" android:layout_width="@dimen/cf4" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center" android:layout_gravity="start|center" android:id="@id/live_preview_share" android:background="@drawable/shape_btn_share_press" android:layout_width="162.0dip" android:layout_height="50.0dip" android:contentDescription="@string/gke" style="@style/ihe">
+            <ImageView android:id="@id/live_share_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/miuix_action_icon_share_dark" android:layout_centerVertical="true" android:contentDescription="@string/gke" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/live_share_tv" />
+            <miuix.androidbasewidget.widget.ProgressBar android:id="@id/live_share_progressbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/live_share_tv" style="@style/imu" />
+            <TextView android:textSize="17.0sp" android:textColor="@color/miuix_custom_btn_text_color_white" android:id="@id/live_share_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gke" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="end|center" android:id="@id/live_preview_save" android:background="@drawable/shape_btn_save_press" android:layout_width="162.0dip" android:layout_height="50.0dip" android:contentDescription="@string/gsb" style="@style/ihe">
+            <ImageView android:id="@id/live_save_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/miuix_action_icon_save_dark" android:layout_centerVertical="true" android:contentDescription="@string/hvk" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/live_save_tv" />
+            <miuix.androidbasewidget.widget.ProgressBar android:id="@id/live_save_progressbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/live_save_tv" style="@style/imu" />
+            <TextView android:textSize="@dimen/ceu" android:textColor="@color/miuix_custom_btn_text_color_white" android:id="@id/live_save_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gsb" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</FrameLayout>

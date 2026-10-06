@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/e13" android:paddingHorizontal="@dimen/e14" android:paddingVertical="@dimen/e15"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/edit_btn_cancel_container" android:background="@drawable/bg_tab_confirm_bar_button" android:layout_width="@dimen/e11" android:layout_height="@dimen/e11" app:aar="parent" app:abg="parent" app:abk="parent">
+        <ImageButton android:layout_gravity="center" android:id="@id/edit_btn_cancel" android:background="@null" android:layout_width="@dimen/e12" android:layout_height="@dimen/e12" android:src="@drawable/miuix_action_icon_immersion_close_dark" android:contentDescription="@string/gtn" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/edit_title_container" android:layout_width="0.0dip" android:layout_height="wrap_content" app:aar="parent" app:aay="@id/edit_btn_confirm_container" app:abf="@id/edit_btn_cancel_container" app:abk="parent">
+        <TextView android:textSize="@dimen/e1_" android:textColor="@color/white_alpha_95" android:id="@id/edit_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gty" />
+        <TextView android:textSize="@dimen/e19" android:textColor="@color/white_alpha_50" android:id="@id/edit_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gu0" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/edit_btn_confirm_container" android:background="@drawable/bg_tab_confirm_bar_button" android:layout_width="@dimen/e11" android:layout_height="@dimen/e11" app:aar="parent" app:aax="parent" app:abk="parent">
+        <ImageButton android:layout_gravity="center" android:id="@id/edit_btn_confirm" android:background="@null" android:layout_width="@dimen/e12" android:layout_height="@dimen/e12" android:src="@drawable/miuix_action_icon_immersion_confirm_dark" android:contentDescription="@string/g6v" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

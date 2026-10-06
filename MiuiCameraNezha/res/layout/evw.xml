@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.camera.mode.doc.ui.widgets.PrivacyWatermarkView android:id="@id/privacy_watermark_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.xiaomi.camera.mode.doc.ui.widgets.IDCardViewV2 android:orientation="vertical" android:id="@id/id_card_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/f8v" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/f8v" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/layout_card_select" android:background="@drawable/bg_id_card_selector" android:paddingTop="@dimen/c_n" android:paddingBottom="@dimen/c_n" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c_8" android:minHeight="@dimen/c_m" android:contentDescription="@string/fw6" android:paddingStart="@dimen/c_8" android:paddingEnd="@dimen/c_8">
+        <TextView android:textSize="@dimen/c_o" android:textColor="@color/black" android:gravity="center" android:id="@id/id_card_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fm9" />
+        <ImageView android:layout_width="8.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_card_arrow_right" android:contentDescription="@string/fw6" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/c_i" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/hint" android:padding="2.0dip" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/c_h" android:text="@string/gf0" android:importantForAccessibility="yes" android:textAlignment="center" />
+</FrameLayout>

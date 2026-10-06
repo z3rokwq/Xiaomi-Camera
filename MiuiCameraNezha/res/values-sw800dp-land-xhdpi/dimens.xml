@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bht">20.0dip</dimen>
+    <dimen name="bi1">100.0dip</dimen>
+    <dimen name="bmo">29.449982dip</dimen>
+    <dimen name="bvm">360.0dip</dimen>
+    <dimen name="d6t">68.0dip</dimen>
+    <dimen name="d9z">7.4539795dip</dimen>
+    <dimen name="d_0">4.909973dip</dimen>
+    <dimen name="d_1">1.8199768dip</dimen>
+    <dimen name="den">60.0dip</dimen>
+    <dimen name="deo">20.0dip</dimen>
+    <dimen name="dep">40.0dip</dimen>
+    <dimen name="deq">80.0dip</dimen>
+    <dimen name="des">182.32dip</dimen>
+    <dimen name="deu">20.199982dip</dimen>
+    <dimen name="dgl">0.0dip</dimen>
+    <dimen name="dqw">720.0dip</dimen>
+</resources>

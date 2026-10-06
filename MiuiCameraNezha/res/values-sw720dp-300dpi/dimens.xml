@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bnp">14.0dip</dimen>
+    <dimen name="bnv">52.5dip</dimen>
+    <dimen name="bo9">7.0dip</dimen>
+    <dimen name="by7">369.14844dip</dimen>
+    <dimen name="by9">25.0dip</dimen>
+    <dimen name="byc">120.0dip</dimen>
+    <dimen name="byg">0.0dip</dimen>
+    <dimen name="c4a">76.48999dip</dimen>
+    <dimen name="clp">72.95999dip</dimen>
+    <dimen name="coi">28.0dip</dimen>
+    <dimen name="det">119.76999dip</dimen>
+    <dimen name="dfq">70.0dip</dimen>
+    <dimen name="dgd">85.79999dip</dimen>
+    <dimen name="dqw">568.0dip</dimen>
+</resources>

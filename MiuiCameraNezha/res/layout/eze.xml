@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/e8u" android:layout_height="@dimen/e8a" android:minHeight="@dimen/e8a"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/tv_top_expandable_item" android:layout_width="wrap_content" android:layout_height="@dimen/e8f" android:scaleType="centerInside" android:minWidth="@dimen/e8f" app:b8y="@color/top_item_color" />
+</FrameLayout>

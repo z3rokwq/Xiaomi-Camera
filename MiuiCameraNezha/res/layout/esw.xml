@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/second_screen_video_prompter_parent_layout" android:background="@color/alpha60_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.camera.ui.blur.BlurBackgroundView android:id="@id/video_prompter_blur_background" android:layout_width="fill_parent" android:layout_height="fill_parent" app:asb="@dimen/e79" />
+    <com.xiaomi.camera.ui.base.halo.ShapeBackGroundView android:id="@id/video_prompter_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:orientation="vertical" android:id="@id/waiting_video_prompter_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/dse">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/second_screen_video_prompter" android:layout_width="@dimen/dsg" android:layout_height="@dimen/dsg" android:layout_marginTop="@dimen/dsd" android:src="@drawable/icon_flip_waiting_authorize" android:scaleType="centerInside" android:contentDescription="@null" />
+        <ScrollView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/drk" android:layout_marginTop="@dimen/drl" android:paddingHorizontal="@dimen/drm">
+            <TextView android:textSize="@dimen/drn" android:textColor="#e6ffffff" android:gravity="center_horizontal" android:id="@id/b52" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hg6" />
+        </ScrollView>
+        <TextView android:textSize="@dimen/dtc" android:textColor="#e6ffffff" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/waiting_second_screen_video_prompter_exit_view" android:background="@drawable/bg_secondscreen_authorize_button_exit" android:focusable="true" android:layout_width="@dimen/bly" android:layout_height="@dimen/blv" android:layout_marginBottom="@dimen/dtb" android:text="@string/hg7" android:contentDescription="@string/hg7" />
+    </FrameLayout>
+</FrameLayout>

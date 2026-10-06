@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaomi.camera.ui.widget.TopHintSlideSwitchButton android:layout_width="wrap_content" android:layout_height="@dimen/e1y" android:layout_marginTop="@dimen/bh7" app:q1="@dimen/e1v" app:q2="@dimen/e1w" app:q3="@dimen/dy3" app:a9g="true" app:b7p="@dimen/e20"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

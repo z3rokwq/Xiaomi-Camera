@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fqt">Expandir hasta la mitad</string>
+    <string name="fr1">Cambiar al mes siguiente</string>
+    <string name="fr2">Cambiar al mes anterior</string>
+    <string name="fwf">Caracteres ingresados: %1$d de %2$d</string>
+    <string name="fwg">Se excedió en %1$d el límite de caracteres de %2$d</string>
+    <string name="fzl">Borrar texto</string>
+    <string name="g__">Error</string>
+    <string name="g_s">Mostrar menú desplegable</string>
+    <string name="gjn">Pestaña</string>
+    <string name="gog">Selecciona a.m. o p.m.</string>
+    <string name="gop">a.m.</string>
+    <string name="goq">p.m.</string>
+    <string name="gw7">Notificación nueva</string>
+    <string name="gwf">Marcada</string>
+    <string name="gwg">Verificado parcialmente</string>
+    <string name="gwh">Sin marcar</string>
+    <string name="gwi">Quitar %1$s</string>
+    <string name="gwj">Más de %1$d notificaciones nuevas</string>
+    <string name="gwl">Cambiar al mes siguiente</string>
+    <string name="gwm">Cambiar al mes anterior</string>
+    <string name="gwn">Cancelar</string>
+    <string name="gwo">Aceptar</string>
+    <string name="gwp">%1$s</string>
+    <string name="gwq">Fecha de finalización: %1$s</string>
+    <string name="gwr">Navegar al año actual (%1$d)</string>
+    <string name="gws">Navegar al año %1$d</string>
+    <string name="gwt">Guardar</string>
+    <string name="gwu">Fecha de inicio: %1$s</string>
+    <string name="gwv">Hoy, %1$s</string>
+    <string name="gww">Cambiar al modo de entrada de calendario</string>
+    <string name="gwx">Presiona para cambiar a la vista de Calendario</string>
+    <string name="gwy">Cambiar al modo de entrada de texto</string>
+    <string name="gwz">Presiona para cambiar a la vista de año</string>
+    <string name="gz6">Mostrar contraseña</string>
+    <string name="hlu">Hoja lateral</string>
+</resources>

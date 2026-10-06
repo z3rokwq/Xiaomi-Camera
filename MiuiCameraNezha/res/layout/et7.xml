@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/guide_view" android:background="@color/alpha80_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guide_margin_start" android:layout_width="wrap_content" android:layout_height="fill_parent" app:aaz="@dimen/cn4" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guide_margin_end" android:layout_width="wrap_content" android:layout_height="fill_parent" app:ab0="@dimen/cn3" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guide_margin_top" android:layout_width="wrap_content" android:layout_height="fill_parent" app:aaz="@dimen/cn6" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guide_margin_bottom" android:layout_width="wrap_content" android:layout_height="fill_parent" app:ab0="@dimen/cn6" />
+    <ImageView android:id="@id/guide_image" android:layout_width="@dimen/dsg" android:layout_height="@dimen/dsg" android:src="@drawable/guide_second_screen_hand_gesture_image" android:scaleType="centerCrop" android:contentDescription="@null" app:aas="@id/guide_content" app:aax="@id/guide_margin_end" app:abg="@id/guide_margin_start" app:abk="@id/guide_margin_top" app:abm="packed" />
+    <TextView android:textSize="@dimen/dsf" android:textColor="@color/white_alpha_95" android:gravity="center" android:id="@id/guide_content" android:layout_width="@dimen/dsh" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cn5" android:maxHeight="@dimen/cod" android:text="@string/gek" app:aar="@id/guide_margin_bottom" app:aax="@id/guide_margin_end" app:abg="@id/guide_margin_start" app:abj="@id/guide_image" app:abm="packed" />
+</androidx.constraintlayout.widget.ConstraintLayout>

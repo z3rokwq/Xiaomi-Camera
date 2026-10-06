@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ii3" parent="@style/i4t">
+        <item name="b3x">center</item>
+        <item name="b4f">fixed</item>
+    </style>
+</resources>

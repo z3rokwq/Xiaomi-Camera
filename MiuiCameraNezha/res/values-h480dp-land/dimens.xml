@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="da2">0.0dip</dimen>
+    <dimen name="da4">22.0dip</dimen>
+    <dimen name="da5">48.0dip</dimen>
+    <dimen name="da9">48.0dip</dimen>
+    <dimen name="dak">168.0dip</dimen>
+    <dimen name="dal">0.0dip</dimen>
+</resources>

@@ -1,0 +1,84 @@
+.class public final synthetic Lmn/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lev/l;
+
+
+# instance fields
+.field public final synthetic a:I
+
+.field public final synthetic b:I
+
+
+# direct methods
+.method public synthetic constructor <init>(II)V
+    .locals 0
+
+    iput p2, p0, Lmn/b;->a:I
+
+    iput p1, p0, Lmn/b;->b:I
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    iget v0, p0, Lmn/b;->a:I
+
+    packed-switch v0, :pswitch_data_0
+
+    check-cast p1, LQ6/q;
+
+    const-string v0, "it"
+
+    invoke-static {p1, v0}, Lfv/l;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget p0, p0, Lmn/b;->b:I
+
+    invoke-interface {p1, p0}, LQ6/q;->onRetryCapture(I)Z
+
+    sget-object p0, LPu/B;->a:LPu/B;
+
+    return-object p0
+
+    :pswitch_0
+    check-cast p1, LQ6/V0;
+
+    const-string v0, "recordState"
+
+    invoke-static {p1, v0}, Lfv/l;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v0, 0x1
+
+    iget p0, p0, Lmn/b;->b:I
+
+    if-ne p0, v0, :cond_0
+
+    invoke-interface {p1}, LQ6/V0;->onFinish()V
+
+    goto :goto_0
+
+    :cond_0
+    invoke-interface {p1}, LQ6/V0;->on()V
+
+    :goto_0
+    invoke-interface {p1}, LQ6/V0;->Se()V
+
+    sget-object p0, LPu/B;->a:LPu/B;
+
+    return-object p0
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method

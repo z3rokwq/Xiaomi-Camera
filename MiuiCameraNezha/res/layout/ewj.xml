@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_selfie_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ch1" android:layout_marginStart="@dimen/ch0" android:layout_marginEnd="@dimen/ch0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:id="@id/iv_logo_xiaomi" android:layout_width="@dimen/cgz" android:layout_height="@dimen/cgy" android:contentDescription="@null" />
+    <LinearLayout android:gravity="end|center" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/ll_desc_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cgv">
+        <TextView android:textSize="@dimen/cgw" android:textColor="@color/white_alpha_60" android:gravity="center" android:id="@id/selfie_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hli" />
+        <ImageView android:id="@id/iv_logo_leica" android:layout_width="@dimen/cgu" android:layout_height="@dimen/cgu" android:src="@drawable/ic_logo_leica" android:contentDescription="@null" android:layout_marginStart="@dimen/cgt" />
+    </LinearLayout>
+</LinearLayout>

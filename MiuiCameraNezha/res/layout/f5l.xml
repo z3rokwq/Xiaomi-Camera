@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <miuix.appcompat.app.CalendarFlexibleLayout android:id="@id/header_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ctp" android:importantForAccessibility="yes" android:paddingHorizontal="@dimen/ctj" android:paddingVertical="@dimen/ctl">
+        <TextView android:id="@id/header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/ibs" />
+        <TextView android:id="@id/header_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ctg" style="@style/ibr" />
+        <TextView android:id="@id/header_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ctk" style="@style/ibr" />
+    </miuix.appcompat.app.CalendarFlexibleLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/date_picker_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/line_date" android:background="@drawable/miuix_appcompat_calendar_date_time_picker_panel_line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/ctm" android:layout_marginStart="@dimen/ctn" android:layout_marginEnd="@dimen/ctn" />
+        <miuix.pickerwidget.widget.DatePicker android:layout_gravity="center_horizontal" android:id="@id/date_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/time_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/line_time" android:background="@drawable/miuix_appcompat_calendar_date_time_picker_panel_line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/ctm" android:layout_marginStart="@dimen/ctn" android:layout_marginEnd="@dimen/ctn" />
+        <miuix.pickerwidget.widget.TimePicker android:layout_gravity="center_horizontal" android:id="@id/time_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

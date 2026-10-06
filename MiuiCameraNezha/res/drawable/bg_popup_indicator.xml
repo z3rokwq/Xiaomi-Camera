@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/clw" android:insetRight="@dimen/clw" android:insetTop="@dimen/cly" android:insetBottom="@dimen/cly"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <layer-list
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <item>
+            <shape android:shape="oval">
+                <solid android:color="@color/zoom_button_background_color" />
+            </shape>
+        </item>
+        <item>
+            <shape android:shape="oval">
+                <stroke android:width="@dimen/ekt" android:color="@color/zoom_button_background_stroke_color" />
+            </shape>
+        </item>
+    </layer-list>
+</inset>

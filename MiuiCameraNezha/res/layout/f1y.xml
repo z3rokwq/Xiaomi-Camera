@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.EvTipView android:gravity="center" android:layout_gravity="center" android:paddingTop="@dimen/bym" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/byn" android:layout_height="@dimen/byn" android:contentDescription="@string/fje" app:b94="@color/white" app:b95="@drawable/ic_extra_top_bar_ev_tip" app:b96="@dimen/byj" app:b97="@dimen/byk" app:b98="@dimen/byl" app:b99="@dimen/byo" app:b9_="@color/alpha24_black" app:b9a="@dimen/byp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,177 @@
+.class public final synthetic Lq6/e;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/function/Consumer;
+
+
+# instance fields
+.field public final synthetic a:I
+
+.field public final synthetic b:Z
+
+
+# direct methods
+.method public synthetic constructor <init>(ZI)V
+    .locals 0
+
+    iput p2, p0, Lq6/e;->a:I
+
+    iput-boolean p1, p0, Lq6/e;->b:Z
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final accept(Ljava/lang/Object;)V
+    .locals 4
+
+    iget v0, p0, Lq6/e;->a:I
+
+    packed-switch v0, :pswitch_data_0
+
+    check-cast p1, LQ6/p;
+
+    const/4 v0, 0x0
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    const/16 v1, 0x28
+
+    const/4 v2, 0x1
+
+    iget-boolean p0, p0, Lq6/e;->b:Z
+
+    invoke-interface {p1, v1, v2, p0, v0}, LQ6/p;->J5(IZZ[Ljava/lang/Object;)V
+
+    return-void
+
+    :pswitch_0
+    check-cast p1, LQ6/i0;
+
+    const/4 v0, 0x5
+
+    const/16 v1, 0xee9
+
+    invoke-interface {p1, v0, v1}, LQ6/i0;->d(II)Z
+
+    move-result v2
+
+    new-instance v3, Lf6/A;
+
+    invoke-direct {v3}, Lf6/A;-><init>()V
+
+    iget-boolean p0, p0, Lq6/e;->b:Z
+
+    if-nez p0, :cond_0
+
+    if-eqz v2, :cond_0
+
+    const/4 p0, 0x3
+
+    invoke-virtual {v3, v0, v1, p0}, Lf6/A;->h(III)Lf6/y;
+
+    invoke-static {}, LQ6/H0;->a()Ljava/util/Optional;
+
+    move-result-object p0
+
+    new-instance v0, LB3/b;
+
+    const/16 v1, 0x10
+
+    invoke-direct {v0, v1}, LB3/b;-><init>(I)V
+
+    invoke-virtual {p0, v0}, Ljava/util/Optional;->ifPresent(Ljava/util/function/Consumer;)V
+
+    invoke-static {}, LQ6/n1;->a()Ljava/util/Optional;
+
+    move-result-object p0
+
+    new-instance v0, LF1/b1;
+
+    const/16 v1, 0xf
+
+    invoke-direct {v0, v1}, LF1/b1;-><init>(I)V
+
+    invoke-virtual {p0, v0}, Ljava/util/Optional;->ifPresent(Ljava/util/function/Consumer;)V
+
+    invoke-static {}, LQ6/v0;->a()Ljava/util/Optional;
+
+    move-result-object p0
+
+    new-instance v0, LEs/g;
+
+    const/16 v1, 0xe
+
+    invoke-direct {v0, v1}, LEs/g;-><init>(I)V
+
+    invoke-virtual {p0, v0}, Ljava/util/Optional;->ifPresent(Ljava/util/function/Consumer;)V
+
+    goto :goto_0
+
+    :cond_0
+    if-eqz p0, :cond_1
+
+    if-nez v2, :cond_1
+
+    const/4 p0, 0x1
+
+    invoke-virtual {v3, v0, v1, p0}, Lf6/A;->h(III)Lf6/y;
+
+    invoke-static {}, LQ6/H0;->a()Ljava/util/Optional;
+
+    move-result-object p0
+
+    new-instance v0, LE4/c;
+
+    const/16 v1, 0x13
+
+    invoke-direct {v0, v1}, LE4/c;-><init>(I)V
+
+    invoke-virtual {p0, v0}, Ljava/util/Optional;->ifPresent(Ljava/util/function/Consumer;)V
+
+    invoke-static {}, LQ6/n1;->a()Ljava/util/Optional;
+
+    move-result-object p0
+
+    new-instance v0, LE4/d;
+
+    const/16 v1, 0xf
+
+    invoke-direct {v0, v1}, LE4/d;-><init>(I)V
+
+    invoke-virtual {p0, v0}, Ljava/util/Optional;->ifPresent(Ljava/util/function/Consumer;)V
+
+    :cond_1
+    :goto_0
+    invoke-static {}, Lg2/a;->j()Lv2/B0;
+
+    move-result-object p0
+
+    const-class v0, Lv2/x0;
+
+    invoke-virtual {p0, v0}, LWh/b;->x(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/android/camera/data/data/c;
+
+    invoke-static {p0}, LO4/h;->d(Lcom/android/camera/data/data/c;)LO4/h;
+
+    move-result-object p0
+
+    iput-object p0, v3, Lf6/A;->c:Lf6/m;
+
+    invoke-interface {p1, v3}, LQ6/i0;->h(Lf6/A;)V
+
+    return-void
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method

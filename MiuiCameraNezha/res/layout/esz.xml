@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/makeup_image_parent" android:layout_width="@dimen/dq5" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dqf" app:asb="@dimen/dqj"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:layout_gravity="center_horizontal" android:clipChildren="false" android:layout_width="@dimen/dq5" android:layout_height="@dimen/dq5" android:layout_marginTop="@dimen/dq4">
+        <ImageView android:id="@id/item_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" />
+        <ImageView android:id="@id/item_selected_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" app:asb="@dimen/dqj" />
+    </FrameLayout>
+    <com.android.camera.ui.AdaptiveTextView android:textSize="@dimen/dql" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:id="@id/name_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dq_" android:maxLines="2" android:shadowColor="@color/alpha24_black" android:shadowRadius="@dimen/dr1" android:layout_marginVertical="@dimen/dqc" />
+</LinearLayout>

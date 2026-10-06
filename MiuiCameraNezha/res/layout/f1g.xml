@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/e86" android:textColor="@color/white_alpha_90" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gji" android:layout_marginVertical="@dimen/cav" android:paddingHorizontal="@dimen/cau" />
+    <Button android:textColor="@color/white" android:id="@id/g0o" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/g0o" android:layout_marginEnd="@dimen/cau" android:layout_marginVertical="@dimen/cav" style="@style/ihc" />
+    <Button android:textColor="@color/white" android:id="@id/cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/g6e" android:layout_marginEnd="@dimen/cau" style="@style/ihc" />
+</LinearLayout>

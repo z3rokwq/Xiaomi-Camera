@@ -1,0 +1,97 @@
+.class public final synthetic LDs/i;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/function/Consumer;
+
+
+# instance fields
+.field public final synthetic a:I
+
+.field public final synthetic b:Z
+
+.field public final synthetic c:Ljava/lang/Object;
+
+
+# direct methods
+.method public synthetic constructor <init>(Ljava/lang/Object;ZI)V
+    .locals 0
+
+    iput p3, p0, LDs/i;->a:I
+
+    iput-object p1, p0, LDs/i;->c:Ljava/lang/Object;
+
+    iput-boolean p2, p0, LDs/i;->b:Z
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final accept(Ljava/lang/Object;)V
+    .locals 3
+
+    iget v0, p0, LDs/i;->a:I
+
+    packed-switch v0, :pswitch_data_0
+
+    check-cast p1, LQ6/f1;
+
+    iget-object v0, p0, LDs/i;->c:Ljava/lang/Object;
+
+    check-cast v0, Lcom/android/camera/data/data/c;
+
+    iget-boolean p0, p0, LDs/i;->b:Z
+
+    invoke-interface {p1, v0, p0}, LQ6/f1;->e1(Lcom/android/camera/data/data/c;Z)V
+
+    return-void
+
+    :pswitch_0
+    check-cast p1, LDs/p;
+
+    iget-object v0, p0, LDs/i;->c:Ljava/lang/Object;
+
+    check-cast v0, LDs/k;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-interface {p1}, LDs/p;->isShowing()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    iget-object v1, v0, LDs/k;->i:LAs/m;
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {p1}, LDs/p;->v8()V
+
+    iget-object p1, v0, LDs/k;->i:LAs/m;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    sget-object v0, Lcom/xiaomi/camera/rx/CameraSchedulers;->sSDKScheduler:Lio/reactivex/v;
+
+    new-instance v1, LAs/k;
+
+    iget-boolean p0, p0, LDs/i;->b:Z
+
+    const/4 v2, 0x0
+
+    invoke-direct {v1, p1, p0, v2}, LAs/k;-><init>(Ljava/lang/Object;ZI)V
+
+    invoke-static {v0, v1}, LAr/d;->j(Lio/reactivex/v;Ljava/lang/Runnable;)Lio/reactivex/disposables/b;
+
+    :cond_0
+    return-void
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method

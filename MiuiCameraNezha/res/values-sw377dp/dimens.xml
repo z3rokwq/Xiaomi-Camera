@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bxv">60.0dip</dimen>
+    <dimen name="by4">30.0dip</dimen>
+    <dimen name="c31">8.0dip</dimen>
+    <dimen name="c5_">12.0dip</dimen>
+    <dimen name="cb_">165.22dip</dimen>
+    <dimen name="cba">380.0dip</dimen>
+    <dimen name="e8a">110.0dip</dimen>
+    <dimen name="e8i">40.0dip</dimen>
+    <dimen name="e8k">13.0dip</dimen>
+    <dimen name="e8u">110.0dip</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bmn">0.0dip</dimen>
+    <dimen name="bmo">0.0dip</dimen>
+    <dimen name="bvh">6.0dip</dimen>
+    <dimen name="bvm">419.0dip</dimen>
+    <dimen name="deu">79.0dip</dimen>
+    <dimen name="df8">35.0dip</dimen>
+    <dimen name="dfw">83.0dip</dimen>
+</resources>

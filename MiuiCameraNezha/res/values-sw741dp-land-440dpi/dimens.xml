@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bvh">5.0dip</dimen>
+    <dimen name="deu">65.0dip</dimen>
+    <dimen name="dfw">44.0dip</dimen>
+</resources>

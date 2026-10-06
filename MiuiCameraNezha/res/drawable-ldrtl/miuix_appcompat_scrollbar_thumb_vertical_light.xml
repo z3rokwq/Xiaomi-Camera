@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/d03">
+        <shape>
+            <corners android:radius="@dimen/d04" />
+            <size android:width="@dimen/d05" />
+            <solid android:color="@color/miuix_appcompat_scrollbar_thumb_vertical_bg_light" />
+        </shape>
+    </item>
+</layer-list>

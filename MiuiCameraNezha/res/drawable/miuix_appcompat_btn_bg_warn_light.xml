@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:paddingLeft="@dimen/csu" android:paddingTop="@dimen/csv" android:paddingRight="@dimen/csu" android:paddingBottom="@dimen/csv"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/miuix_appcompat_btn_bg_warn_light_smooth" />
+    <item android:drawable="@drawable/miuix_appcompat_coloured_btn_fg_light" />
+</layer-list>

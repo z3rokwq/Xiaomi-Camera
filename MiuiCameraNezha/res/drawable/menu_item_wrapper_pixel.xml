@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/zoom_ratio_toggle_view_bg_color" />
+    <padding android:left="@dimen/em4" android:top="@dimen/em4" android:right="@dimen/em4" android:bottom="@dimen/em4" />
+    <corners android:radius="100.0dip" />
+</shape>

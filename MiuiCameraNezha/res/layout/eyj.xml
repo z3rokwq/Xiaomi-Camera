@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.fragment.videoprompter.SecondScreenArbitraryRectLayout android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/ebj" android:layout_marginTop="120.0dip" android:importantForAccessibility="no" android:layout_marginStart="@dimen/ebk"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/top_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:abk="parent">
+        <LinearLayout android:id="@id/move_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/move_view" android:visibility="gone" android:layout_width="@dimen/eap" android:layout_height="@dimen/ebv" android:layout_marginTop="@dimen/eai" android:layout_marginStart="@dimen/eai" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="end|center|top" android:id="@id/close_btn" android:visibility="gone" android:layout_width="@dimen/eap" android:layout_height="@dimen/ebv" android:layout_marginTop="@dimen/eai" android:contentDescription="@string/gab" android:layout_marginEnd="@dimen/eai" />
+    </LinearLayout>
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/video_prompt_text_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/ebw" app:aas="@id/bottom_container" app:abj="@id/top_container">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/white" android:id="@id/video_prompt_text_view" android:layout_width="@dimen/ebp" android:layout_height="wrap_content" android:text="@string/hwz" android:layout_marginStart="@dimen/ebu" />
+            <LinearLayout android:orientation="vertical" android:id="@id/blankArea" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/floating_btn_container" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:enabled="true" android:gravity="start|bottom|center" android:id="@id/edit_text_btn_second" android:background="@drawable/video_prompter_edit_second_nor_bg" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/eaj" android:layout_height="@dimen/eaj" android:layout_marginTop="@dimen/eac" android:src="@drawable/video_prompter_edit_second" android:contentDescription="@string/hx0" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/bottom_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bmx" android:layout_marginStart="@dimen/bmy" app:aar="parent" app:aay="@id/zoom_right" app:abf="@id/zoom_left">
+        <ImageView android:id="@id/close_btn_second" android:visibility="gone" android:layout_width="@dimen/eaj" android:layout_height="@dimen/eaj" android:src="@drawable/ic_video_prompter_close_second" android:contentDescription="@string/gab" android:layout_marginStart="@dimen/bsf" app:aay="@id/play_text_btn_second" app:ab8="spread_inside" app:abg="@id/bottom_container" app:abk="@id/bottom_container" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/play_text_btn_second" android:visibility="gone" android:layout_width="@dimen/eaj" android:layout_height="@dimen/eaj" android:src="@drawable/ic_video_prompter_play_second" android:contentDescription="@string/hxe" android:layout_marginStart="@dimen/eb7" app:aar="parent" app:abf="@id/close_btn_second" />
+        <ImageView android:id="@id/edit_text_btn" android:layout_width="@dimen/eap" android:layout_height="@dimen/eap" android:layout_marginTop="@dimen/eam" android:src="@drawable/video_prompter_edit" android:contentDescription="@string/hx0" app:aay="@id/play_text_btn" app:ab8="spread_inside" app:abg="@id/bottom_container" app:abk="@id/bottom_container" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/play_text_btn" android:layout_width="@dimen/eap" android:layout_height="@dimen/eap" android:src="@drawable/ic_video_prompter_play" android:contentDescription="@string/hxe" app:aay="@id/adjust_text_btn" app:abf="@id/edit_text_btn" app:abk="@id/edit_text_btn" />
+        <ImageView android:id="@id/adjust_text_btn" android:layout_width="@dimen/eap" android:layout_height="@dimen/eap" android:src="@drawable/ic_video_prompter_adjust" android:contentDescription="@string/fh7" app:aax="@id/bottom_container" app:abf="@id/play_text_btn" app:abk="@id/edit_text_btn" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView android:id="@id/zoom_left" android:visibility="gone" android:layout_width="@dimen/ebv" android:layout_height="@dimen/ebv" app:aar="parent" app:aba="parent" />
+    <ImageView android:id="@id/zoom_right" android:visibility="gone" android:layout_width="@dimen/ebv" android:layout_height="@dimen/ebv" app:aar="parent" app:abe="parent" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="end" android:id="@id/zoom_btn" android:visibility="gone" android:layout_width="@dimen/ebv" android:layout_height="@dimen/ebv" app:aax="parent" app:abk="parent" />
+</com.android.camera.fragment.videoprompter.SecondScreenArbitraryRectLayout>

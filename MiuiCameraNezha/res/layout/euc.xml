@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/cg_template_layout" android:layout_width="wrap_content" android:layout_height="@dimen/dza" android:layout_marginBottom="@dimen/dz9"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:background="@drawable/bg_vv_feature" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/dzb">
+        <FrameLayout android:layout_gravity="center" android:id="@id/cg_template_image" android:layout_width="@dimen/dzc" android:layout_height="@dimen/dzc" android:layout_marginEnd="@dimen/dz_">
+            <ImageView android:id="@id/cg_template_image_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/geh" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/dze" android:textColor="@color/white" android:ellipsize="marquee" android:layout_gravity="center" android:id="@id/cg_template_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dzd" android:text="@string/geh" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+</FrameLayout>

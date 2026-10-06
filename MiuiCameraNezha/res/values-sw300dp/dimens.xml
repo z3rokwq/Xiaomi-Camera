@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="e3k">16.0dip</dimen>
+    <dimen name="e3n">24.0dip</dimen>
+    <dimen name="e3o">20.0dip</dimen>
+    <dimen name="e3p">15.5dip</dimen>
+    <dimen name="e3r">260.0dip</dimen>
+    <dimen name="e3u">14.0sp</dimen>
+    <dimen name="e3v">0.0dip</dimen>
+    <dimen name="e3x">102.0dip</dimen>
+</resources>

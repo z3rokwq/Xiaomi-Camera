@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bhu">28.215393dip</dimen>
+    <dimen name="bhv">28.215393dip</dimen>
+    <dimen name="bl1">170.9256dip</dimen>
+    <dimen name="bl2">113.9498dip</dimen>
+    <dimen name="blb">4.3487854dip</dimen>
+    <dimen name="bmn">0.0dip</dimen>
+    <dimen name="bmo">0.0dip</dimen>
+    <dimen name="bre">19.571594dip</dimen>
+    <dimen name="brf">15.657288dip</dimen>
+    <dimen name="chl">9.962982dip</dimen>
+    <dimen name="d6q">16.699982sp</dimen>
+    <dimen name="d9z">7.294281dip</dimen>
+    <dimen name="d_0">4.804779dip</dimen>
+    <dimen name="d_1">1.7809753dip</dimen>
+    <dimen name="des">155.47998dip</dimen>
+    <dimen name="deu">16.129974dip</dimen>
+    <dimen name="df0">30.96997dip</dimen>
+    <dimen name="dge">87.73999dip</dimen>
+    <dimen name="dn_">55.44998dip</dimen>
+    <dimen name="e3b">12.810486dip</dimen>
+    <dimen name="e3c">12.810486dip</dimen>
+    <dimen name="e68">12.810577dip</dimen>
+    <dimen name="eje">135.22018dip</dimen>
+    <dimen name="ejg">64.048096dip</dimen>
+    <dimen name="en5">0.0dip</dimen>
+</resources>

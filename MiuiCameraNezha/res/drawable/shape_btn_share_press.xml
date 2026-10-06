@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/cst" />
+    <size android:height="@dimen/csw" />
+    <solid android:color="@color/miuix_custom_btn_bg_black_color" />
+    <padding android:left="@dimen/csu" android:right="@dimen/csu" />
+</shape>
